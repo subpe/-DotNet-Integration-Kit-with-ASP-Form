@@ -12,7 +12,7 @@
         </script>
 </head>
 <body onload="javascript:submitForm()">
-<form method="post" action="https://merchant.bhartipay.com/crm/jsp/paymentrequest">
+<form method="post" action="https://payments.subpe.in/crm/jsp/paymentrequest">
  	<%           
              IEnumerator postParams = Request.Form.GetEnumerator();
             while (postParams.MoveNext())
